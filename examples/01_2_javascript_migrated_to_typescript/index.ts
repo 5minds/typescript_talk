@@ -15,3 +15,8 @@ export class MyBasicClass {
   }
 
 }
+
+
+const myClass = new MyBasicClass();
+
+myClass.doSomething({});
