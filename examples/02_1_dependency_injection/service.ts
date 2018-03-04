@@ -1,12 +1,11 @@
-import { IRepository } from "./interfaces";
-
+import {DatabaseRepository} from './DatabaseRepository';
 
 export class DataService {
 
-  private repository: IRepository;
+  private repository: DatabaseRepository;
 
-  constructor(repository: IRepository) {
-    this.repository = repository; 
+  constructor(repository: DatabaseRepository) {
+    this.repository = repository;
   }
 
   public getAll() {

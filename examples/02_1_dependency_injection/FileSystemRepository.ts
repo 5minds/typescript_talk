@@ -1,6 +1,4 @@
-import { IRepository } from "./interfaces";
-
-export class FileSystemrepository implements IRepository {
+export class FileSystemrepository {
 
   getAll(): Array<string> {
     console.log('FileSystemRepository getAll() called');
@@ -15,4 +13,4 @@ export class FileSystemrepository implements IRepository {
   save(id: string, stringToSave: string): void {
     console.log('FileSystemRepository save() called');
   }
-} 
+}

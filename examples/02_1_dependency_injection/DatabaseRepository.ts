@@ -1,6 +1,4 @@
-import { IRepository } from "./interfaces";
-
-export class DatabaseRepository implements IRepository {
+export class DatabaseRepository {
 
   getAll(): Array<string> {
     console.log('DatabaseRepository getAll() called');
@@ -15,4 +13,4 @@ export class DatabaseRepository implements IRepository {
   save(id: string, stringToSave: string): void {
     console.log('DatabaseRepository save() called');
   }
-} 
+}
