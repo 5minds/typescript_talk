@@ -1,0 +1,13 @@
+{
+  "name": "full_app_meta",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "postinstall": "minstall ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "minstall": "^3.0.3"
+  }
+}

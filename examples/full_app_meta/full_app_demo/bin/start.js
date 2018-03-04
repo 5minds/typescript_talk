@@ -6,12 +6,26 @@ const logger = require('loggerhythm').Logger.createLogger('bootstrapper');
 const iocModuleNames = [
   '@essential-projects/bootstrapper',
   '@essential-projects/bootstrapper_node',
+  '@essential-projects/caching',
   '@essential-projects/core',
+  '@essential-projects/data_model',
+  '@essential-projects/data_model_contracts',
   '@essential-projects/datasource_adapter_base',
   '@essential-projects/datasource_adapter_postgres',
+  '@essential-projects/datastore',
   '@essential-projects/event_aggregator',
   '@essential-projects/http_extension',
-  '..',
+  '@essential-projects/iam',
+  '@essential-projects/invocation',
+  '@essential-projects/messagebus',
+  '@essential-projects/messagebus_adapter_faye',
+  '@essential-projects/messagebus',
+  '@essential-projects/metadata',
+  '@essential-projects/pki_service',
+  '@essential-projects/security_service',
+  '@essential-projects/validation',
+  'full_app_service_a',
+  // '..',
 ];
 
 const iocModules = iocModuleNames.map((moduleName) => {
