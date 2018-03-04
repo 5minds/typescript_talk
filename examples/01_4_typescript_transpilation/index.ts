@@ -1,6 +1,6 @@
 
 export class MyBasicClass {
-  
+
   public async doSomething(anything: string): Promise<void> {
 
     // Diese Überprüfungen brauchen wir zur Design Time nicht mehr
@@ -21,4 +21,4 @@ export class MyBasicClass {
 
 const myClass = new MyBasicClass();
 
-myClass.doSomething({});
+myClass.doSomething('say hello');
