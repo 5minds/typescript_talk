@@ -25,7 +25,6 @@ const iocModuleNames = [
   '@essential-projects/security_service',
   '@essential-projects/validation',
   'full_app_service_a',
-  // '..',
 ];
 
 const iocModules = iocModuleNames.map((moduleName) => {

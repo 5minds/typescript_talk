@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "postinstall": "minstall ."
+    "postinstall": "minstall .",
+    "build": "meta exec \"npm run build\" --exclude=full_app_meta"
   },
   "author": "",
   "license": "ISC",

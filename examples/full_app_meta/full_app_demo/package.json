@@ -16,6 +16,7 @@
     "@essential-projects/bootstrapper_node": "^1.0.0-rc3",
     "@essential-projects/caching": "^1.0.0-rc3",
     "@essential-projects/core": "^1.0.0-rc3",
+    "@essential-projects/core_contracts": "^1.0.0-rc3",
     "@essential-projects/data_model": "^1.0.0-rc3",
     "@essential-projects/data_model_contracts": "^1.0.0-rc3",
     "@essential-projects/datasource_adapter_base": "^1.0.0-rc3",
@@ -33,6 +34,7 @@
     "@essential-projects/security_service": "^1.0.0-rc3",
     "@essential-projects/validation": "^1.0.0-rc3",
     "full_app_service_a": "^1.0.0",
+    "full_app_service_b": "^1.0.0",
     "addict-ioc": "^2.2.11",
     "loggerhythm": "^3.0.0"
   },

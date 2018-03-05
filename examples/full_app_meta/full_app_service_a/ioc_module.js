@@ -1,19 +1,10 @@
 'use strict';
 
-const {
-  StoreEntity,
-  StoreEntityTypeService,
-} = require('./dist/commonjs');
-
-const entityDiscoveryTag = require('@essential-projects/core_contracts').EntityDiscoveryTag;
+const ExampleServiceA = require('./dist/commonjs');
 
 function registerInContainer(container) {
 
-  container.register('StoreEntity', StoreEntity)
-    .tags(entityDiscoveryTag);
-
-  container.register('StoreEntityTypeService', StoreEntityTypeService)
-    .dependencies('DatastoreService');
+  container.register('ExampleService', ExampleServiceA);
 }
 
 module.exports.registerInContainer = registerInContainer;
