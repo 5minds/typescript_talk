@@ -24,7 +24,8 @@ const iocModuleNames = [
   '@essential-projects/pki_service',
   '@essential-projects/security_service',
   '@essential-projects/validation',
-  'full_app_service_a',
+  'graphql_talk',
+  'talk_http',
 ];
 
 const iocModules = iocModuleNames.map((moduleName) => {

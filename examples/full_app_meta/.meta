@@ -1,8 +1,9 @@
 {
   "projects": {
-    "full_app_service_contracts": "",
-    "full_app_service_a": "",
-    "full_app_service_b": "",
+    "talk_contracts": "",
+    "talk_http": "",
+    "graphql_talk": "",
+    "hypescript_talk": "",
     "full_app_demo": ""
   }
 }

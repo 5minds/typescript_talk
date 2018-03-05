@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "description": "demonstration project for showcasing stuff",
   "license": "MIT",
-  "main": "index.js",
+  "main": "bin/start.js",
   "scripts": {
     "start": "node bin/start.js",
     "build": "gulp build"
@@ -33,8 +33,10 @@
     "@essential-projects/pki_service": "^1.0.0-rc3",
     "@essential-projects/security_service": "^1.0.0-rc3",
     "@essential-projects/validation": "^1.0.0-rc3",
-    "full_app_service_a": "^1.0.0",
-    "full_app_service_b": "^1.0.0",
+    "talk_contracts": "^1.0.0",
+    "talk_http": "^1.0.0",
+    "typescript_talk": "^1.0.0",
+    "graphql_talk": "^1.0.0",
     "addict-ioc": "^2.2.11",
     "loggerhythm": "^3.0.0"
   },
