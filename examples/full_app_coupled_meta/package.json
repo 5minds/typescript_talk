@@ -1,0 +1,14 @@
+{
+  "name": "full_app_meta",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "postinstall": "minstall .",
+    "build": "meta exec \"npm run build\" --exclude=full_app_coupled_meta"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "minstall": "^3.0.3"
+  }
+}
