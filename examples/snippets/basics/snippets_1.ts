@@ -1,3 +1,8 @@
+interface IReportingService {
+  generateReport(message: string): void;
+  sendReport(message: string): boolean;
+}
+
 class ReportingComponent {
 
   private reportingService: any;
@@ -11,11 +16,3 @@ class ReportingComponent {
   }
 
 }
-
-interface IReportingService {
-  generateReport(message: string): void;
-  sendReport(message: string): boolean;
-}
-
-
-

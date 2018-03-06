@@ -1,16 +1,20 @@
 enum Importance {High = 'High', Medium = 'Medium', Low = 'Low'}
 
+interface IReportingService {
+  generateReport(message: string, receiver: string): void;
+  sendReport(message: string): boolean;
+}
+
 class ReportingComponent {
 
-  private reportingService: any;
+  private reportingService: IReportingService;
 
-  constructor(service: any) {
+  constructor(service: IReportingService) {
     this.reportingService = service;
   }
 
   public generateReport(message: string, receiver: string): void {
     this.reportingService.generateReport(message, receiver);
-  }
 
   // public generateReport(message: string, receiver: string, importance?: Importance) {
   //   this.reportingService(message, receiver);
@@ -26,4 +30,4 @@ class ReportingComponent {
 
 }
 
-//interface einfügen un mit verändern
+

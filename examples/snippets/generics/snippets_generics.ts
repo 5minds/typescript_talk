@@ -1,3 +1,12 @@
+enum Importance {High = 'High', Medium = 'Medium', Low = 'Low'};
+
+interface IRepository {
+  generateReport(message: string, receiver: string, importance: Importance, maximumRetries: number = 5): void;
+  sendReport(message: string): boolean;
+}
+
+
+
 class ReportingComponent {
 
   private reportingService: any;
@@ -14,11 +23,11 @@ class ReportingComponent {
     return arg;
   }
 
-  public generateReport(message: string): void {
+  public generateReport(message: string, receiver: string): void {
     //this.identity<string>('string');
     //let test: boolean = this.identity('string')
 
-    this.reportingService.generateReport(message);
+    this.reportingService.generateReport(message, receiver);
   }
 
 }
