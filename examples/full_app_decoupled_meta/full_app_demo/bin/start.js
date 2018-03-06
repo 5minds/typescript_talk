@@ -19,7 +19,6 @@ const iocModuleNames = [
   '@essential-projects/invocation',
   '@essential-projects/messagebus',
   '@essential-projects/messagebus_adapter_faye',
-  '@essential-projects/messagebus',
   '@essential-projects/metadata',
   '@essential-projects/pki_service',
   '@essential-projects/security_service',
