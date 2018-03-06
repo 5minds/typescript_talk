@@ -1,0 +1,25 @@
+- Zielgruppenfrage?
+- Harter Cut in der Präsentation (basics zu tiefem einstieg)
+- Vorher Agenda angeben, erst Basics dann zum tiefen einstieg
+- besserer Übergang (basti)
+- Agendafolie anlegen (basti)
+- Basics als benefits verkaufen (zielgruppe sind programmierer) (basti)
+- nicht zu basic basics
+- großes S für typescript in folien
+- enums .png wechseln
+- größe der code beispiele anpassen
+- nervosität abstellen/ geschwindigkeit anpassen/ mehr zeit lassen (basti)
+- übergang (frage & antwort) (typeinterference)
+- überleitung zu dependency injection, bezug auf letztes beispiel
+- come to the dark side we have cookies
+- leute an die hand nehmen
+- roadruner meme mit klavier
+- ioc und dependency injection können leute abhängen
+- postman ruhiger erklären
+- mauszeiger so langsam wie möglich bewegen
+- circular depedencies rausnehmen
+- aha moment bei der änderung einer zeile zum austausch eines services
+- emojis in consolen output schreiben
+- interfaces - NICHT feste kopplung zwischem Komponenten
+- wir zeigen euch jetzt interfaces auf steroiden als übergang?
+- Zusammenfassungsfolie (bleibt nicht drauf hängen)

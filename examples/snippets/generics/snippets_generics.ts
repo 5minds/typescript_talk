@@ -1,11 +1,9 @@
 enum Importance {High = 'High', Medium = 'Medium', Low = 'Low'};
 
 interface IRepository {
-  generateReport(message: string, receiver: string, importance: Importance, maximumRetries: number = 5): void;
+  generateReport(message: string, receiver: string, importance: Importance, maximumRetries: number): void;
   sendReport(message: string): boolean;
 }
-
-
 
 class ReportingComponent {
 
