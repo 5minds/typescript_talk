@@ -1,4 +1,4 @@
-import { IRepository } from "./interfaces";
+import { IRepository } from 'dependency_injection_contracts';
 
 export class DatabaseRepository implements IRepository {
 
