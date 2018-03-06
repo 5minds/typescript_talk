@@ -1,4 +1,4 @@
-import { IRepository } from "./interfaces";
+import { IRepository } from "../dependeny_injection_contracts/interfaces";
 
 
 export class DataService {
@@ -6,7 +6,7 @@ export class DataService {
   private repository: IRepository;
 
   constructor(repository: IRepository) {
-    this.repository = repository; 
+    this.repository = repository;
   }
 
   public getAll() {
