@@ -1,5 +1,4 @@
-import { IRepository } from "../dependeny_injection_contracts/interfaces";
-
+import { IRepository } from 'dependency_injection_contracts';
 
 export class DataService {
 
