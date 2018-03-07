@@ -1,5 +1,5 @@
-import {ITalkService, IAudience, AudienceResponse} from 'talk_contracts';
 import {Logger} from 'loggerhythm';
+import {AudienceResponse, IAudience, ITalkService} from 'talk_contracts';
 
 export class TypescriptTalkService implements ITalkService {
 
