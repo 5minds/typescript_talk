@@ -1,7 +1,7 @@
-interface IReportingService {
-  generateReport(message: string): void;
-  sendReport(message: string): boolean;
-}
+// interface IReportingService {
+//   generateReport(message: string): void;
+//   sendReport(message: string): boolean;
+// }
 
 class ReportingComponent {
 

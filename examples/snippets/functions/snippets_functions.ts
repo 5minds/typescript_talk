@@ -15,17 +15,16 @@ class ReportingComponent {
 
   public generateReport(message: string, receiver: string): void {
     this.reportingService.generateReport(message, receiver);
+  }
 
   // public generateReport(message: string, receiver: string, importance?: Importance) {
-  //   this.reportingService(message, receiver);
-
-  //   this.reportingService(message, receiver, importance);
+  //   this.reportingService.generateReport(message, receiver);
+  //   this.reportingService.generateReport(message, receiver, importance);
   // }
 
-  // public generateReport(message: string, receiver: string, importance?: Importance, maximumRetries: number = 5) {
-  //   this.reportingService(message, receiver, importance, maximumRetries);
-
-  //   this.reportingService(message, receiver, importance, 6);
+  // public generateReport(message: string, receiver: string, maximumRetries: number = 5) {
+  //   this.reportingService.generateReport(message, receiver, maximumRetries);
+  //   this.reportingService.generateReport(message, receiver, 6);
   // }
 
 }
