@@ -9,13 +9,13 @@ export class GraphQlTalkService implements ITalkService {
     const response: AudienceResponse = audience.tell('GraphQl is cool too');
 
     switch (response) {
-      case AudienceResponse.Great: logger.info('told ya\n');
+      case AudienceResponse.Great: logger.info('told ya 😎\n');
         break;
-      case AudienceResponse.Medium: logger.info(`it's more fun if you use it yourself\n`);
+      case AudienceResponse.Medium: logger.info(`it's more fun if you use it yourself 🤠\n`);
         break;
-      case AudienceResponse.Bad: logger.info('whatever dude\n');
+      case AudienceResponse.Bad: logger.info('whatever 😡\n');
         break;
-      default: logger.error('where is the audience o_O\n');
+      default: logger.error('where is the audience o_O 😨\n');
         break;
     }
   }

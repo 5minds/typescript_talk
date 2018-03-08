@@ -1,0 +1,31 @@
+{
+	"variables": [],
+	"info": {
+		"name": "TypeScript Talk",
+		"_postman_id": "b60771cd-cc9e-fa07-3d5c-71af6f544cbe",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8000/talk/present_something",
+			"request": {
+				"url": "http://localhost:8000/talk/present_something",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"audienceSize\": 50\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
