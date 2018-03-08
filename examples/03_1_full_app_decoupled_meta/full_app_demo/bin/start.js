@@ -23,7 +23,7 @@ const iocModuleNames = [
   '@essential-projects/pki_service',
   '@essential-projects/security_service',
   '@essential-projects/validation',
-  'typescript_talk',
+  'graphql_talk',
   'talk_http',
 ];
 

@@ -9,13 +9,17 @@ export class TypescriptTalkService implements ITalkService {
     const response: AudienceResponse = audience.tell('Typescript is really cool');
 
     switch (response) {
-      case AudienceResponse.Great: logger.info('no more flowers please\n');
+      case AudienceResponse.Great:
+        logger.info('no more flowers please\n');
         break;
-      case AudienceResponse.Medium: logger.info(`yup, that's about it\n`);
+      case AudienceResponse.Medium:
+        logger.info(`yup, that's about it\n`);
         break;
-      case AudienceResponse.Bad: logger.info('yeah, well... no\n');
+      case AudienceResponse.Bad:
+        logger.info('yeah, well... no\n');
         break;
-      default: logger.error('where is the audience o_O\n');
+      default:
+        logger.error('where is the audience o_O\n');
         break;
     }
   }
