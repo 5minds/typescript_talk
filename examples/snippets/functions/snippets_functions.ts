@@ -1,10 +1,5 @@
 enum Importance {High = 'High', Medium = 'Medium', Low = 'Low'}
 
-interface IReportingService {
-  generateReport(message: string, receiver: string): void;
-  sendReport(message: string): boolean;
-}
-
 class ReportingComponent {
 
   private reportingService: IReportingService;
